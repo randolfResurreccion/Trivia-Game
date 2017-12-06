@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Trivia Game</title>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/javascript/app.js"></script>
+</head>
+
+<body>
+    <header>
+        <div id="" class="jumbotron">
+            <h1>Trivia Nation</h1>
+            <button id="start" type="button" class="btn btn-primary btn-lg">Start Game</button>
+        </div>
+
+    </header>
+
+   
+    
+    <div id="quiz">
+        <div id="display"><h1>10</h1></div>
+        
+        <form action="" name="questions" onsubmit="return submitAnswers">
+            <h3>1.The first question is in the USA, what is celebrated on February 2 and is also a film? </h3>
+            <input type="radio" class="question1" name="q1" value="a" id="q1a">a. Groundhog Day
+            <input type="radio" class="question1" name="q1" value="b" id="q1b">b. Hump Day
+            <input type="radio" class="question1" name="q1" value="c" id="q1c">c. All Day Every Day
+            <input type="radio" class="question1" name="q1" value="d" id="q1d">d. Groundbreaking Day
+
+            <h3>2.Which weather phenomenon translates from Spanish for little boy? </h3>
+            <input type="radio" name="q2" value="a" id="q2a">a. La Nina
+            <input type="radio" name="q2" value="b" id="q2b">b. El Nina
+            <input type="radio" name="q2" value="c" id="q2c">c. La Nino
+            <input type="radio" name="q2" value="d" id="q2d">d. El Nino
+
+            <h3>3.What is the most popular drink in the world that does not have alcohol?</h3>
+            <input type="radio" name="q3" value="a" id="q3a">a. Water
+            <input type="radio" name="q3" value="b" id="q3b">b. Soda
+            <input type="radio" name="q3" value="c" id="q3c">c. Coffee
+            <input type="radio" name="q3" value="d" id="q3d">d. Tea
+
+            <h3>4.Name the world’s biggest island.</h3>
+            <input type="radio" name="q4" value="a" id="q4a">a. Honshu
+            <input type="radio" name="q4" value="b" id="q4b">b. Borneo
+            <input type="radio" name="q4" value="c" id="q4c">c. Greenland
+            <input type="radio" name="q4" value="d" id="q4d">d. Madagascar
+
+            <h3>5.In which film did Humphrey Bogart say, “We’ll always have Paris”?</h3>
+            <input type="radio" name="q5" value="a" id="q5a">a. Breakfast at Tiffanys
+            <input type="radio" name="q5" value="b" id="q5b">b. Casablanca
+            <input type="radio" name="q5" value="c" id="q5c">c. Blue Lagoon
+            <input type="radio" name="q5" value="d" id="q5d">d. Deadpool
+            <p>
+
+            </p>
+            <input id ="submit" class="btn btn-primary" type="submit" value="Submit">
+        </form>
+
+        
+    </div>
+
+    <div id="score"Score:></div>
+
+
+
+
+
+
+
+
+</body>
+
+</html>
